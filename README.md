@@ -6,6 +6,8 @@ Before to install eigen library we need to learn how run C++ code in ROS
 ## **1. Run code C++ in ROS**
 
 **Create a workspace**
+```
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin_make
+```
