@@ -60,3 +60,37 @@ rosrun test talker
 ```
 
 ## **2. Install Eigen Library in ROS**
+
+**Modify the Cmakelist of the folder where is the code in cpp**
+
+```
+find_package(cmake_modules REQUIRED)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+find_package(Eigen REQUIRED)
+include_directories(${Eigen_INCLUDE_DIRS})
+
+```
+
+```
+catkin_package(
+  INCLUDE_DIRS include
+  LIBRARIES test
+  DEPENDS Eigen roscpp rospy tf	    #  eigen
+)
+```
+
+```
+add_executable(eigen src/eigen.cpp)
+```
+
+```
+add_dependencies(eigen ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+```
+
+```
+target_link_libraries(eigen
+ ${catkin_LIBRARIES}
+ ${Eigen_LIBRARIES}   #  eigen
+)
+
+```
