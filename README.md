@@ -18,3 +18,11 @@ catkin_create_pkg test std_msgs rospy roscpp tf
 catkin_make
 ```
 _Note:_ Inside the pkg **test** now have two folders **include** and **src**; and two files **CMakeLists.txt** and **package.xml** 
+
+**Clone the helloworld.cpp inside src folder**
+
+```
+cd src
+git clone 
+
+```
