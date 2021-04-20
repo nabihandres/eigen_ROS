@@ -75,7 +75,7 @@ include_directories(${Eigen_INCLUDE_DIRS})
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES test
-  DEPENDS Eigen roscpp rospy tf	    #  eigen
+  DEPENDS Eigen roscpp rospy tf	   
 )
 ```
 
@@ -90,7 +90,7 @@ add_dependencies(eigen ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TAR
 ```
 target_link_libraries(eigen
  ${catkin_LIBRARIES}
- ${Eigen_LIBRARIES}   #  eigen
+ ${Eigen_LIBRARIES}   
 )
 
 ```
