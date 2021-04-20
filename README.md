@@ -11,3 +11,9 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin_make
 ```
+**Create a package**
+```
+catkin_ws/src
+catkin_create_pkg test std_msgs rospy roscpp tf
+catkin_make
+```
