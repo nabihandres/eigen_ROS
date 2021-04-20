@@ -45,3 +45,16 @@ add_dependencies(talker ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TA
 target_link_libraries(talker 
  ${catkin_LIBRARIES})
 ```
+**Open new terminal and run roscore**
+```
+roscore
+```
+**Open second terminal and run talke.cpp**
+
+
+```
+catkin_make
+source devel/setup.bash
+rosrun test talker
+
+```
