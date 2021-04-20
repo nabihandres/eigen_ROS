@@ -3,4 +3,4 @@ This tutorial is how to use the eigen library to compute matrices, vectors, nume
 
 Before to install eigen library we need to learn how run C++ code in ROS
 
-##**1. Rund code C++ in ROS**
+## **1. Rund code C++ in ROS**
