@@ -59,4 +59,4 @@ rosrun test talker
 
 ```
 
-## **2. Install Eigen Library in Ros**
+## **2. Install Eigen Library in ROS**
