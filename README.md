@@ -19,7 +19,7 @@ catkin_make
 ```
 _Note:_ Inside the pkg **test** now have two folders **include** and **src**; and two files **CMakeLists.txt** and **package.xml** 
 
-**Clone the helloworld.cpp inside src folder**
+**Clone the talker.cpp inside src folder**
 
 ```
 cd src
@@ -28,9 +28,9 @@ git clone https://github.com/emontero1991/tutorial-c-.git
 ```
 **Modify the Cmakelist of the folder where is the code in cpp**
 ```
-  catkin_package(
-  INCLUDE_DIRS include
-  LIBRARIES test)
+ catkin_package(
+ INCLUDE_DIRS include
+ LIBRARIES test)
 ```
 
 ```
