@@ -17,3 +17,4 @@ catkin_ws/src
 catkin_create_pkg test std_msgs rospy roscpp tf
 catkin_make
 ```
+_Note:_ Inside the folder test now are two folders include, src and CMakeLists.txt and package.xml files
