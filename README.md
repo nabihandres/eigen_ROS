@@ -27,22 +27,21 @@ git clone https://github.com/emontero1991/tutorial-c-.git
 
 ```
 **Modify the Cmakelist of the folder where is the code in cpp**
-1)```
+```
   catkin_package(
   INCLUDE_DIRS include
   LIBRARIES test)
 ```
-2)
+
 ```
 add_executable(talker src/ talker.cpp)
 ```
-3)
+
 ```
 add_dependencies(talker ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 ```
-4)
+
 ```
 target_link_libraries(talker 
- ${catkin_LIBRARIES}
-)
+ ${catkin_LIBRARIES})
 ```
