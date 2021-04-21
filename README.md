@@ -52,8 +52,8 @@ roscore
 ```
 **Open second terminal and run talke.cpp**
 
-
 ```
+cd eigen_ws
 catkin_make
 source devel/setup.bash
 rosrun test talker
