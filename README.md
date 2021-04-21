@@ -60,7 +60,7 @@ rosrun test helloworld
 
 ```
 
-## **2. Install Eigen Library in ROS**
+## **2. How make Eigen Library available on ROS**
 
 **Modify the Cmakelist of the folder where is the code in cpp**
 
