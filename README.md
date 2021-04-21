@@ -99,7 +99,7 @@ modify
          lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lplanning_models"/>
   </export>
 ```
-**Modify the Cmakelist.txt in test pkg **
+**Modify the Cmakelist.txt in test pkg**
 
 ```
 find_package(cmake_modules REQUIRED)
