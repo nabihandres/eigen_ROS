@@ -25,7 +25,7 @@ _Note:_ Inside the pkg **test** now have two folders **include** and **src**; an
 ```
 eigen_ws/src/test/src
 ```
-**Modify the Cmakelist of test pkg **
+**Modify the Cmakelist of test pkg**
 ```
  catkin_package(
  INCLUDE_DIRS include
