@@ -101,6 +101,8 @@ modify
 ```
 **Modify the Cmakelist.txt in test pkg**
 
+add
+
 ```
 find_package(cmake_modules REQUIRED)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
@@ -108,6 +110,8 @@ find_package(Eigen REQUIRED)
 include_directories(${Eigen_INCLUDE_DIRS})
 
 ```
+
+modify
 
 ```
 catkin_package(
