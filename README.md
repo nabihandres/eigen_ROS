@@ -50,7 +50,7 @@ target_link_libraries(helloworld
 ```
 roscore
 ```
-**Open second terminal and run talke.cpp**
+**Open second terminal and run helloworld.cpp**
 
 ```
 cd eigen_ws
