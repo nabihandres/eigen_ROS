@@ -63,6 +63,8 @@ Now the code is working and we can see **hello world** and the **number** that s
 
 ## **2. How make Eigen Library available on ROS**
 **Download FindEigen.cmake in downloads folder**
+the file is on 
+eigen_ws/src/test/use_eigen
 
 **FindEigen.cmake file should now be added to the cmak Module**
 Open a terminal
@@ -72,8 +74,7 @@ cd /opt/ros/melodic/share/cmake_modules/cmake/Modules/
 sudo cp ~/Download/FindEigen.cmake .
 password
 ```
-check if copy is working we find now FindEigen.cmake with ls command
-
+check if FindEigen.cmake copy with ls command
 ```
 ls
 ```
