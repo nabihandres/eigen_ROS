@@ -79,6 +79,20 @@ check if FindEigen.cmake copy with ls command
 ls
 ```
 
+**Modify the package.xml in the test pkg**
+add this two lines
+```
+<build_depend>cmake_modules</build_depend>
+<run_depend>cmake_modules</run_depend>
+```
+modify
+```
+ <export>
+    <cpp cflags="`pkg-config --cflags eigen3` -I${prefix}/include `rosboost-cfg --cflags`" 
+
+         lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lplanning_models"/>
+  </export>
+```
 **Modify the Cmakelist and add Eigen Library to the ROS package **
 
 ```
