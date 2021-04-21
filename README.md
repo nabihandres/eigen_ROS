@@ -11,10 +11,11 @@ mkdir -p ~/eigen_ws/src
 cd ~/eigen_ws/
 catkin_make
 ```
-**Create a package**
+**Create a package with name test**
 ```
-catkin_ws/src
+cd eigen_ws/src
 catkin_create_pkg test std_msgs rospy roscpp tf
+cd ..
 catkin_make
 ```
 _Note:_ Inside the pkg **test** now have two folders **include** and **src**; and two files **CMakeLists.txt** and **package.xml** 
