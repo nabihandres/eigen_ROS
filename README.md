@@ -62,11 +62,15 @@ rosrun test helloworld
 Now the code is working and we can see **hello world** and the **number** that show the msg 
 
 ## **2. How make Eigen Library available on ROS**
+
 **Download FindEigen.cmake in downloads folder**
+
 the file is on 
+
 eigen_ws/src/test/use_eigen
 
 **FindEigen.cmake file should now be added to the cmak Module**
+
 Open a terminal
 
 ```
@@ -79,7 +83,7 @@ check if FindEigen.cmake copy with ls command
 ls
 ```
 
-**Modify the package.xml in the test pkg**
+**Modify the package.xml in test pkg**
 
 add 
 
@@ -95,7 +99,7 @@ modify
          lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lplanning_models"/>
   </export>
 ```
-**Modify the Cmakelist and add Eigen Library to the ROS package **
+**Modify the Cmakelist.txt in test pkg **
 
 ```
 find_package(cmake_modules REQUIRED)
