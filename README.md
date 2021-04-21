@@ -89,7 +89,7 @@ add
 
 ```
 <build_depend>cmake_modules</build_depend>
-<run_depend>cmake_modules</run_depend>
+<exec_depend>cmake_modules</exec_depend>
 ```
 modify
 ```
