@@ -83,6 +83,12 @@ check if FindEigen.cmake copy with ls command
 ls
 ```
 
+
+**Copy and paste eigen.cpp in src**
+
+eigen_ws/src/test/src
+
+
 **Modify the package.xml in test pkg**
 
 add 
@@ -134,5 +140,18 @@ target_link_libraries(eigen
  ${catkin_LIBRARIES}
  ${Eigen_LIBRARIES}   
 )
+
+```
+**Open new terminal and run roscore**
+```
+roscore
+```
+**Open second terminal and run eigen.cpp**
+
+```
+cd eigen_ws
+catkin_make
+source devel/setup.bash
+rosrun test eigen
 
 ```
