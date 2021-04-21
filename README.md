@@ -80,7 +80,9 @@ ls
 ```
 
 **Modify the package.xml in the test pkg**
-add this two lines
+
+add 
+
 ```
 <build_depend>cmake_modules</build_depend>
 <run_depend>cmake_modules</run_depend>
