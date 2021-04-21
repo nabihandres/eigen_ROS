@@ -61,8 +61,23 @@ rosrun test helloworld
 ```
 
 ## **2. How make Eigen Library available on ROS**
+**Download FindEigen.cmake in downloads folder**
 
-**Modify the Cmakelist of the folder where is the code in cpp**
+**FindEigen.cmake file should now be added to the cmak Module**
+Open a terminal
+
+```
+cd /opt/ros/melodic/share/cmake_modules/cmake/Modules/
+sudo cp ~/Download/FindEigen.cmake .
+password
+```
+check if copy is working we find now FindEigen.cmake with ls command
+
+```
+ls
+```
+
+**Modify the Cmakelist and add Eigen Library to the ROS package **
 
 ```
 find_package(cmake_modules REQUIRED)
