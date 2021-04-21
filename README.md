@@ -59,6 +59,7 @@ source devel/setup.bash
 rosrun test helloworld
 
 ```
+Now the code is working and we can see **hello world** and the **number** that show the msg 
 
 ## **2. How make Eigen Library available on ROS**
 **Download FindEigen.cmake in downloads folder**
