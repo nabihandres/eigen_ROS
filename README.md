@@ -56,7 +56,7 @@ roscore
 cd eigen_ws
 catkin_make
 source devel/setup.bash
-rosrun test talker
+rosrun test helloworld
 
 ```
 
