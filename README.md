@@ -4,15 +4,17 @@ This tutorial is how to use the eigen library to compute matrices, vectors, nume
 
 
 ## Table of contents
-* [1.Run code C++ in ROS]
-* [2. How make Eigen Library available on ROS]
-* [3. compute matrices, vectors, with Eigen library]
-* [4. namespace in C++]
+* [1. How to run C++ in ROS]
+* [2. Install Eigen Library in ROS]
+* [3. Compute matrices, vectors, with Eigen library]
+* [4. namespace]
+* [5, Templates]
+* [6. Class]
 
 
 Before to install eigen library we need to learn how can run C++ code in ROS
 
-## **1. Run code C++ in ROS**
+## **1. How to run C++ in ROS**
 
 **Create a workspace**
 ```
@@ -70,7 +72,7 @@ rosrun test helloworld
 ```
 Now the code is working and we can see **hello world** and the **number** that show the msg 
 
-## **2. How make Eigen Library available on ROS**
+## **2. Install Eigen Library in ROS**
 
 **Download FindEigen.cmake in downloads folder**
 
