@@ -157,3 +157,7 @@ rosrun test eigen
 ```
 
 ## **3. compute matrices, vectors, with Eigen library**
+
+show many importants links
+
+(http://ros-developer.com/2019/03/27/eigen-arrays-matrices-and-vectors-definition-initialization-and-coefficient-wise-operations/#respond)
