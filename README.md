@@ -161,3 +161,11 @@ rosrun test eigen
 show many importants links
 
 (http://ros-developer.com/2019/03/27/eigen-arrays-matrices-and-vectors-definition-initialization-and-coefficient-wise-operations/#respond)
+(http://ros-developer.com/tag/eigen/)
+
+## **4. namespace in C++**
+
+(https://www.geeksforgeeks.org/namespace-in-c/#:~:text=Namespace%20is%20a%20feature%20added,the%20same%20name%20are%20allowed)
+(https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm)
+
+
