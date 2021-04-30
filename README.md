@@ -156,4 +156,4 @@ rosrun test eigen
 
 ```
 
-## **3. compute matrices, vectors, with Eigen library **
+## **3. compute matrices, vectors, with Eigen library**
