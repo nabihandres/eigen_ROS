@@ -155,3 +155,5 @@ source devel/setup.bash
 rosrun test eigen
 
 ```
+
+## **3. compute matrices, vectors, with Eigen library **
