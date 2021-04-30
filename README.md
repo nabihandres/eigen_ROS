@@ -162,7 +162,7 @@ show many importants links
 
 (http://ros-developer.com/2019/03/27/eigen-arrays-matrices-and-vectors-definition-initialization-and-coefficient-wise-operations/#respond)
 (http://ros-developer.com/tag/eigen/)
-https://eigen.tuxfamily.org/dox/group__TutorialMatrixClass.html)
+(https://eigen.tuxfamily.org/dox/group__TutorialMatrixClass.html)
 
 ## **4. namespace in C++**
 
