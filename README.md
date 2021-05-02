@@ -175,9 +175,10 @@ show many importants links
 (http://ros-developer.com/tag/eigen/)
 (https://eigen.tuxfamily.org/dox/group__TutorialMatrixClass.html)
 
-## **4. namespace in C++**
+## **4. namespace**
 
 (https://www.geeksforgeeks.org/namespace-in-c/#:~:text=Namespace%20is%20a%20feature%20added,the%20same%20name%20are%20allowed)
 (https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm)
 
-
+## **5. templates**
+(https://www.geeksforgeeks.org/templates-cpp/)
